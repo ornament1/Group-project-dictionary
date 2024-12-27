@@ -1,9 +1,0 @@
-deutsch_englisch_dict = { "hallo":"hello",
-                                  "danke":"thanks",
-                          "auf wiedersehen":"goodbye",
-                          "ja":"yes",
-                          "nein":"no",
-                          "haus":"house",
-                          "familie":"family"}
-
-print (deutsch_englisch_dict)
