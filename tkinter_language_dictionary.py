@@ -26,3 +26,30 @@ languages = {
     "escuela": "school",      #Spanish
     },
 }
+   "portugese": {
+       "hello": "olá",
+    "goodbye": "adeus",
+    "please": "por favor",
+    "thank you": "obrigado",
+    "yes": "sim",
+    "no": "não",
+    "cat": "gato",
+    "dog": "cão",
+    "friend": "amigo",
+    "love": "amor",
+    "food": "comida",
+    "water": "água",
+    "house": "casa",
+    "car": "carro",
+    "book": "livro",
+    "school": "escola",
+    "family": "família",
+    "happy": "feliz",
+    "sad": "triste",
+    "beautiful": "bonito",
+   },
+} 
+
+
+   
+       
