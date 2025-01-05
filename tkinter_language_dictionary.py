@@ -25,9 +25,8 @@ languages = {
     "happy": "feliz",
     "sad": "triste",     
     },
-
-   "portugese": {
-       "hello": "olá",
+"portugese": {
+    "hello": "olá",
     "goodbye": "adeus",
     "please": "por favor",
     "thank you": "obrigado",
