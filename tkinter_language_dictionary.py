@@ -4,28 +4,28 @@ import tkinter.messagebox as messagebox
 # Dictionary of languages and their translations
 languages = {
     "Spanish": {
-    "hola": "hello",          # Spanish
-    "adiós": "goodbye",       # Spanish
-    "por favor": "please",    # Spanish
-    "gracias": "thank you",   # Spanish
-    "sí": "yes",              # Spanish
-    "no": "no",               #Spanish
-    "buenos días": "good morning",     #Spanish
-    "buenas tardes": "good afternoon",  #Spanish
-    "buenas noches": "good night",       #Spanish
-    "¿cómo estás?": "how are you?",     #Spanish
-    "bien": "well",         #Spanish
-    "mal": "bad",        #Spanish
-    "¿qué tal?": "what's up?",     #Spanish
-    "amigo": "friend",      #Spanish
-    "familia": "family",     #Spanish
-    "casa": "house",       #Spanish
-    "comida": "food",         #Spanish
-    "agua": "water",       #Spanish
-    "libro": "book",         #Spanish
-    "escuela": "school",      #Spanish
+        "hello": "hola",
+    "goodbye": "adiós",
+    "please": "por favor",
+    "thank you": "gracias",
+    "yes": "sí",
+    "no": "no",
+    "cat": "gato",
+    "dog": "perro",
+    "house": "casa",
+    "food": "comida",
+    "water": "agua",
+    "friend": "amigo",
+    "family": "familia",
+    "love": "amor",
+    "school": "escuela",
+    "book": "libro",
+    "car": "coche",
+    "city": "ciudad",
+    "happy": "feliz",
+    "sad": "triste",     
     },
-}
+
    "portugese": {
        "hello": "olá",
     "goodbye": "adeus",
