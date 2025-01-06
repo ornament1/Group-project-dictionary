@@ -47,8 +47,28 @@ languages = {
     "sad": "triste",
     "beautiful": "bonito",
    },
-} 
-
+"hausa": {
+    "Kaya": "Goods",
+    "Gida": "House",
+    "Lafiya": "Health",
+    "Kuɗi": "Money",
+    "Abinci": "Food",
+    "Tafiya": "Journey",
+    "Mutum": "Person",
+    "Hannu": "Hand",
+    "Ruwa": "Water",
+    "Zuciya": "Heart",
+    "Duniya": "World",
+    "Shekara": "Year",
+    "Idanu": "Eyes",
+    "Yaro": "Boy",
+    "Mace": "Woman",
+    "Namiji": "Man",
+    "Farin Ciki": "Happiness",
+    "Tarihi": "History",
+    "Ilimi": "Knowledge",
+    "Gaskiya": "Truth",
+}
 
    
        
