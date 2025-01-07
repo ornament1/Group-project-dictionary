@@ -25,7 +25,7 @@ languages = {
     "happy": "feliz",
     "sad": "triste",     
     },
-"portugese": {
+"Portugese": {
     "hello": "olá",
     "goodbye": "adeus",
     "please": "por favor",
@@ -47,7 +47,7 @@ languages = {
     "sad": "triste",
     "beautiful": "bonito",
    },
-"hausa": {
+"Hausa": {
     "Kaya": "Goods",
     "Gida": "House",
     "Lafiya": "Health",
@@ -68,7 +68,82 @@ languages = {
     "Tarihi": "History",
     "Ilimi": "Knowledge",
     "Gaskiya": "Truth",
+},
+"German": {
+    "hello": "hallo",
+    "goodbye": "tschüss",
+    "please": "bitte",
+    "thank you": "danke",
+    "yes": "ja",
+    "no": "nein",
+    "good morning": "guten Morgen",
+    "good evening": "guten Abend",
+    "good night": "gute Nacht",
+    "friend": "freund",
+    "family": "familie",
+    "house": "haus",
+    "food": "essen",
+    "water": "wasser",
+    "book": "buch",
+    "school": "schule",
+    "work": "arbeit",
+    "car": "auto",
+    "dog": "hund",
+    "cat": "katze",
+    "love": "liebe",
+},
+"Zulu": {
+     "hello": "sawubona",
+    "goodbye": "hamba kahle",
+    "please": "ngiyacela",
+    "thank you": "ngiyabonga",
+    "yes": "yebo",
+    "no": "cha",
+    "friend": "umngane",
+    "family": "umndeni",
+    "house": "indlu",
+    "food": "ukudla",
+    "water": "amanzi",
+    "book": "incwadi",
+    "school": "isikole",
+    "work": "umsebenzi",
+    "car": "imoto",
+    "dog": "inja",
+    "cat": "ikati",
+    "love": "uthando",
+    "city": "idolobha",
+    "life": "impilo",
 }
+}
+
+def translate():
+    selected_language = languages_var.get()
+    word = word_entry.get().strip().lower()
+
+    if selected_language in languages and word in languages[selected_language]:
+        translation = languages[selected_language][word]
+        messagebox.showinfo("Translation", f"{word} in {selected_language}: {translation}")
+    else:
+        messagebox.showwarning("Warning", "Word not found or language not supported.")
+
+# Create the main window
+root = Tk()
+root.title("Multi-Language Translator")
+
+# Create and pack widgets
+Label(root, text="Enter an English word:").pack(pady=10)
+word_entry = Entry(root, width=30)
+word_entry.pack(pady=10)
+
+# Dropdown for language selection
+languages_var = StringVar(value="Select Language")
+OptionMenu(root, languages_var, *languages.keys()).pack(pady=10)
+
+# Button to trigger translation
+Button(root, text="Translate", command=translate).pack(pady=20)
+
+# Run the application
+root.mainloop()
 
    
        
