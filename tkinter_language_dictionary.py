@@ -113,7 +113,7 @@ languages = {
     "love": "uthando",
     "city": "idolobha",
     "life": "impilo",
-}
+},
 "deutsch" = { 
     "hallo":"hello",                               
     "danke":"thanks",                              
@@ -135,7 +135,7 @@ languages = {
     "auto":"car",                                  
     "trauer":"sorrow",                             
     "schokolade":"chocolate"                       
-},                                               
+}                                               
 }
 
 def translate():
