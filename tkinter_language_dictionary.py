@@ -25,7 +25,7 @@ languages = {
         "happy": "feliz",
         "sad": "triste",
     },
-    "Portuguese": {  # Corrected spelling
+    "Portuguese": {  
         "hello": "olá",
         "goodbye": "adeus",
         "please": "por favor",
@@ -114,28 +114,6 @@ languages = {
         "city": "idolobha",
         "life": "impilo",
     },
-    "deutsch": {  # Corrected to use ':' instead of '='
-        "hallo": " hello",
-        "danke": "thanks",
-        "auf wiedersehen": "goodbye",
-        "ja": "yes",
-        "nein": "no",
-        "haus": "house",
-        "familie": "family",
-        "essen": "food",
-        "wasser": "water",
-        "currywurst": "curry sausage",
-        "vorwarts": "forward",
-        "schwarz": "black",
-        "flughafen": "airport",
-        "kaufhaus": "department store",
-        "schnitzel": "breaded and fried meat",
-        "u-bahn": "subway",
-        "hilfe": "help",
-        "auto": "car",
-        "trauer": "sorrow",
-        "schokolade": "chocolate"
-    }
 }
 
 def translate():
